@@ -13,12 +13,13 @@ Clone repo and create a virtual environment
 ```
 $ git clone https://github.com/Pranjal0310/Neural-Chatbot.git
 $ cd Neural-Chatbot
-$ python -m venv venv
-$ . venv/bin/activate
+$ pip install virtualenv
+$ virtualenv env
+$  .\env\Scripts\activate.ps1
 ```
 Install dependencies
 ```
-$ (venv) pip install Flask torch torchvision nltk
+$ (venv)pip install Flask torch torchvision nltk
 ```
 Install nltk package
 ```
@@ -36,3 +37,8 @@ This will dump data.pth file. And then run
 the following command to test it in the console.
 ```
 $ (venv) python chat.py
+```
+For Running the chatbot in the server 
+```
+$ (venv) python app.py
+```
