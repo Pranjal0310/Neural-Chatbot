@@ -37,7 +37,7 @@ the following command to test it in the console.
 ```
 $ (venv) python chat.py
 ```
-For Running the chatbot in the server 
+For Running the chatbot on the server 
 ```
 $ (venv) python app.py
 ```
